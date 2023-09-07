@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Welcome to My Website</title>
   <style>
     /* Add some basic styling to the page */
     body {
@@ -29,9 +28,9 @@
   </style>
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>Thank you for visiting! This is the homepage.</p>
-  <a class="button" href="projects.html">View Projects</a>
+  <h1>Projects</h1>
+  <p>This is where all of my projects are!</p>
+  <a class="button" href="index.html">Back to homepage</a>
 </body>
 </html>
 
@@ -111,7 +110,7 @@
   </style>
 </head>
 <body>
-  <h1>Projects</h1>
+  
   <div class="gallery">
     <div class="gallery-item" onclick="openLightbox(this)">
       <img src="cnc.png" alt="Project 1">
@@ -127,7 +126,16 @@
         <p class="gallery-item-description">I used the industry standard python library Pytorch, to create machine learning classification models</p>
       </div>
     </div>
+    <div class="gallery-item" onclick="openLightbox(this)">
+      <img src="robot_dog.jpg" alt="Project 3">
+      <div class="gallery-item-content">
+        <h2 class="gallery-item-title">Robot dog design and manufacturing</h2>
+        <p class="gallery-item-description">I used Autodesk inventor to design a robot dog and then manufactured it using purchased and 3d printed parts</p>
+        
   </div>
+  </div>
+  
+        
 
   <script>
     function openLightbox(item) {
